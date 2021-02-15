@@ -1,6 +1,6 @@
 #include <Adafruit_NeoPixel.h>
 
-Adafruit_NeoPixel strip(64, 7);
+Adafruit_NeoPixel strip(64, 8);
 
 uint32_t Wheel(byte WheelPos) {
   WheelPos = 255 - WheelPos;
