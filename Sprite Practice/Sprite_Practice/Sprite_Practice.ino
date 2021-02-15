@@ -19,7 +19,7 @@ int colors [7][3] {
 void setup() {
   strip.begin();
   strip.clear();
-  strip.setBrightness(25);
+  strip.setBrightness(10);
 }
 
 void loop() {
@@ -37,7 +37,7 @@ void loop() {
     }
 
   }
-  whichFrame = (whichFrame + 1)%8;
+  whichFrame = (whichFrame + 1)%7;
   strip.show();
   delay(100);
 
