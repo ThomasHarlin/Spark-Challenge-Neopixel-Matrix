@@ -21,7 +21,7 @@ int colors [7][3] {
 void setup() {
   strip.begin();
   strip.clear();
-  strip.setBrightness(10);
+  strip.setBrightness(100);
 }
 
 void loop() {
